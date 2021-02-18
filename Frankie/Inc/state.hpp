@@ -84,9 +84,9 @@ private:
 			DeviceHandler::clear_state_param();
 
 			DeviceHandler::set_state_status(status_e::active);
-		}
 
-		derived()->on_enter_base();
+			derived()->on_enter_base();
+		}
 	}
 
 	void tracks_go (void) {
